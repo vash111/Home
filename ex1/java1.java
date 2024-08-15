@@ -12,7 +12,7 @@ public class java1 {
 		
 		int pay = sc.nextInt();
 		
-		double tax;
+		double tax = 0;
 		
 		if(pay < 0) { 
 			System.out.println("잘못된 입력입니다.");
@@ -27,6 +27,7 @@ public class java1 {
 		}else if (pay <= 300000000) {
 			tax = 0.38;
 		}else {
+			
 			tax = 0.40;
 		}
 		
